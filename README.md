@@ -1,7 +1,7 @@
 # Log
 
-[![Build Status](https://travis-ci.org/Sciss/Log.svg?branch=main)](https://travis-ci.org/Sciss/AsyncFile)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/de.sciss/asyncfile_2.13/badge.svg)](https://maven-badges.herokuapp.com/maven-central/de.sciss/asyncfile_2.13)
+[![Build Status](https://travis-ci.org/Sciss/Log.svg?branch=main)](https://travis-ci.org/Sciss/Log)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/de.sciss/log_2.13/badge.svg)](https://maven-badges.herokuapp.com/maven-central/de.sciss/log_2.13)
 
 ## statement
 

@@ -13,8 +13,7 @@ with absolutely no warranties. To contact the author, send an e-mail to `contact
 
 ## requirements / installation
 
-AudioFile builds with sbt against Scala 2.13, 2.12, Dotty (JVM) and Scala 2.13 (JS).
-The last version to support Scala 2.11 was v1.5.3.
+This project builds with sbt against Scala 2.13, 2.12, Dotty (JVM) and Scala 2.13 (JS).
 
 To use the library in your project:
 

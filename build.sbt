@@ -1,11 +1,11 @@
 lazy val baseName  = "Log"
 lazy val baseNameL = baseName.toLowerCase
 
-lazy val projectVersion = "0.1.0"
+lazy val projectVersion = "0.1.1"
 lazy val mimaVersion    = "0.1.0"
 
 lazy val commonJvmSettings = Seq(
-  crossScalaVersions := Seq("0.27.0-RC1", "2.13.3", "2.12.12"),
+  crossScalaVersions := Seq("3.0.0-M1", "2.13.3", "2.12.12"),
 )
 
 lazy val root = crossProject(JSPlatform, JVMPlatform).in(file("."))
@@ -25,7 +25,7 @@ lazy val root = crossProject(JSPlatform, JVMPlatform).in(file("."))
     scalacOptions in (Compile, compile) ++= {
       val jdkGt8  = scala.util.Properties.isJavaAtLeast("9")
       val sv      = scalaVersion.value
-      val isDotty = sv.startsWith("0.") // https://github.com/lampepfl/dotty/issues/8634
+      val isDotty = sv.startsWith("3.") // https://github.com/lampepfl/dotty/issues/8634
       val sq0     = (if (!isDotty && jdkGt8) List("-release", "8") else Nil)
       if (sv.startsWith("2.12.")) sq0 else "-Wvalue-discard" :: sq0
     }, // JDK >8 breaks API; skip scala-doc

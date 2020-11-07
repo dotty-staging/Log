@@ -17,8 +17,12 @@ import java.io.PrintStream
 
 import de.sciss.log.Level._
 
-final class Logger(id: String, var level: Int = Level.Warn,
-                   out: PrintStream = Console.err, timeStamp: Boolean = true)
+final class Logger(
+                    var id        : String,
+                    var level     : Int         = Level.Warn,
+                    var out       : PrintStream = Console.err,
+                    var timeStamp : Boolean     = true,
+                  )
   extends LoggerPlatform {
 
   def debug(msg: => String): Unit = if (level <= Debug) doLog("debug" , msg)

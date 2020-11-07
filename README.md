@@ -19,7 +19,7 @@ To use the library in your project:
 
     "de.sciss" %% "log" % v
 
-Use `%%%` with Scala.js cross project. The current version `v` is `"0.1.0"`.
+Use `%%%` with Scala.js cross project. The current version `v` is `"0.1.1"`.
 
 ## getting started
 

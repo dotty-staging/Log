@@ -1,6 +1,6 @@
 # Log
 
-[![Build Status](https://travis-ci.org/Sciss/Log.svg?branch=main)](https://travis-ci.org/Sciss/Log)
+[![Build Status](https://github.com/Sciss/Log/workflows/Scala%20CI/badge.svg?branch=main)](https://github.com/Sciss/Log/actions?query=workflow%3A%22Scala+CI%22)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/de.sciss/log_2.13/badge.svg)](https://maven-badges.herokuapp.com/maven-central/de.sciss/log_2.13)
 
 ## statement
